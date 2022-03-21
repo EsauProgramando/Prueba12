@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Inputs</title>
+</head>
+
+<body>
+  <!--label(for)= input(id)-->
+  <labe for="nombre">Nombre:</label>
+    <input id="nombre" type="text" placeholder="Ej.Jose Fernando" /><br><br>
+
+    <label for="edad">Edad</label>
+    <input id="edad" type="number" placeholder="Ej 20" /><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Ej. correo@gmail.com" /><br><br>
+
+    <label>Password</label>
+    <input type="password"><br><br>
+
+    <label for="fecha">Fecha:</label>
+    <input id="fecha" type="date" /><br><br>
+
+    <label for="file">Archivo</label>
+    <input id="file" type="file" accept="image/*" /><br><br>
+
+    <legend>Sexo</legend>
+    <label for="sexo">Masculino</label>
+    <input id="masculino" type="radio" />
+    <label for="femenino">femenino</label>
+    <input id="femenino" type="radio" />
+    <br><br>
+
+    <legend>Pasatiempo</legend>
+    <label for="leer">Leer</label>
+    <input id="leer" type="checkbox" />
+
+    <label for="deporte">Deporte</label>
+    <input id="femenino" type="checkbox" /><br><br>
+
+    <label for="telefono">Telefono</label>
+    <input id="telefono" type="tel" /><br><br>
+
+    <label for="tiempo">Hora</label>
+    <input id="tiempo" type="time" /><br><br>
+    <label for="descripcion">Descripccion</label>
+    <textarea></textarea><br><br>
+    <label>Paises</label>
+    <select>
+      <option disabled selected> --Seleccione--</option>
+      <option value="">Peru</option>
+      <option value="">Colombia</option>
+      <option value="">Mexico</option>
+    </select><br><br>
+
+    <input type="submit" value="Enviar" />
+</body>
+
+</html>
