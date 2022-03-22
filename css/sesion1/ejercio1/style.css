@@ -1,0 +1,15 @@
+body {
+  color: blue;
+  background-color: aquamarine;
+}
+
+.titulo {
+  color: red;
+}
+.subtitulo {
+  color: rgb(148, 21, 21);
+}
+ul li span {
+  color: rgb(52, 223, 52);
+  font-weight: bold;
+}

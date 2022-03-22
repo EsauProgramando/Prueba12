@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+  color: purple;
+}
+.container {
+  color: green;
+}
+.titulo samp {
+  color: red;
+}
+/*cascada*/
+.titulo {
+  color: blue;
+}
+
+.titulo {
+  color: black;
+}
