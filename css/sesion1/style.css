@@ -1,0 +1,30 @@
+/* SELECCTOR --> elemento HTML que tendra los estilos
+1. etiqueta HTML  -- h1,h2..., header,etc
+2. clases -- "." "nombre_de_la_clase" .titulo
+3. id --  "#"  "nombre_del_id"  > #titulo_id 
+
+
+PROPIEDADES:VALOR ---> ambas declaradas en minusculas y separas mediante ":" y termina en  un ";"
+*/
+/*
+.titulo {
+  color: red;
+}
+.parrafo {
+  color: blue;
+}
+.subtitulo {
+  color: green;
+}
+*/
+/* Selector de ID*/
+
+#titulo_id {
+  color: blue;
+}
+#parrafo_id {
+  color: green;
+}
+#subtitulo_id {
+  color: aqua;
+}

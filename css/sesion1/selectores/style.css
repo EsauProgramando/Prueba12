@@ -1,0 +1,31 @@
+* {
+  color: blue;
+}
+
+h1 samp {
+  color: rgb(128, 77, 0);
+}
+div h1 span {
+  color: #000;
+}
+
+.contenedor.padre {
+  background-color: coral;
+}
+.contenedor.padre {
+  background-color: lightgreen;
+}
+div > p {
+  /*selecciona a los hijos directos*/
+  background-color: black;
+}
+.parrafos p {
+  background-color: blueviolet;
+}
+
+.parrafos p + p /* selecciona a al elementos siguiente */ {
+  background-color: black;
+}
+.subtitulo {
+  color: red;
+}
