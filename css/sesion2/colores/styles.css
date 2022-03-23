@@ -1,0 +1,27 @@
+/*palabras claves -- nombres de colores en ingles*/
+
+body {
+  background-color: lightgreen;
+  background-color: azure;
+  background-color: aliceblue;
+}
+/*RGB  R--red,  G ----green,  B --- blue*/
+body {
+  background-color: rgb(255, 255, 255);
+  background-color: rgb(-100, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+/*RGB porcentual*/
+body {
+  background-color: rgb(100%, 100%, 100%);
+}
+/*RGB hexadecimal */
+body {
+  background-color: #ffffff;
+  background-color: #fff;
+}
+body {
+  color: rgb(119, 0, 255);
+  background-color: aqua;
+  box-shadow: #fff;
+}
