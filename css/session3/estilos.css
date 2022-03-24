@@ -1,56 +1,60 @@
-.container {
-  width: 40rem;
-  height: auto;
-  margin-top: 8rem;
-  margin-left: auto;
-  margin-right: auto;
+html {
+  box-sizing: border-box;
 }
-
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.container {
+  width: 408px;
+  height: 362px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .superior {
+  width: 100%;
+  height: 78px;
   background-color: #fc0204;
-  height: 80px;
-  width: 403px;
-  border: 6px solid #040204;
+  border: 4px solid #040204;
 }
 .inferior {
-  width: 380px;
-  height: 282px;
+  width: 366px;
+  height: 284px;
   background-color: #7c7a96;
-  margin-left: 10px;
-  border: 6px solid #040204;
+  border: 4px solid #040204;
+  margin: 0 auto;
+  position: relative;
+}
+.caja {
+  background-color: #1514f6;
+  border: 4px solid #040204;
+  width: 80px;
+  height: 80px;
+  position: absolute;
 }
 .cajap {
-  width: 78px;
-  height: 78px;
-  background-color: #1514f6;
-  border: 6px solid #040204;
-  position: relative;
-  left: 22px;
-  top: 56px;
+  top: 60px;
+  left: 20px;
 }
-
 .cajas {
-  width: 78px;
-  height: 78px;
-  background-color: #1514f6;
-  border: 6px solid #040204;
-  position: relative;
-  left: 268px;
-  top: 40px;
+  top: 128px;
+  left: 264px;
 }
 .cajaultima {
-  width: 104px;
-  height: 104px;
-  background-color: #7d0204;
-  border: 6px solid #040204;
+  width: 114px;
+  height: 109px;
+  background-color: #78142f;
+  border: 4px solid #040204;
   position: relative;
-  left: 130px;
-  bottom: 10px;
+  margin: 0 auto;
+  top: 170px;
+  text-align: center;
+  line-height: 134px;
 }
 .cajaultima span {
-  font-size: 40px;
   font-weight: 700;
-  position: relative;
-  left: 20px;
-  top: 60px;
+  font-size: 60px;
 }
