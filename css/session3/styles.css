@@ -1,0 +1,31 @@
+/* position top left botton right*/
+
+div {
+  height: 120px;
+}
+h1 {
+  position: static; /*defaul*/
+  background-color: yellow;
+}
+h1 {
+  position: relative;
+  top: 20px;
+}
+.absolute_parrafo {
+  position: absolute; /*cambia el fluyo del html*/
+  color: red;
+}
+.relative {
+  position: relative;
+  margin: 3rem auto;
+  height: 300px;
+  width: 300px;
+}
+.absolute {
+  position: absolute;
+  margin: 3rem auto;
+}
+header {
+  background-color: gray;
+  position: fixed; /*se sale flota en la pagina simpre toma como referencia al body*/
+}

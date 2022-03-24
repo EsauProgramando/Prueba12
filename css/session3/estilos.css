@@ -1,0 +1,56 @@
+.container {
+  width: 40rem;
+  height: auto;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.superior {
+  background-color: #fc0204;
+  height: 80px;
+  width: 403px;
+  border: 6px solid #040204;
+}
+.inferior {
+  width: 380px;
+  height: 282px;
+  background-color: #7c7a96;
+  margin-left: 10px;
+  border: 6px solid #040204;
+}
+.cajap {
+  width: 78px;
+  height: 78px;
+  background-color: #1514f6;
+  border: 6px solid #040204;
+  position: relative;
+  left: 22px;
+  top: 56px;
+}
+
+.cajas {
+  width: 78px;
+  height: 78px;
+  background-color: #1514f6;
+  border: 6px solid #040204;
+  position: relative;
+  left: 268px;
+  top: 40px;
+}
+.cajaultima {
+  width: 104px;
+  height: 104px;
+  background-color: #7d0204;
+  border: 6px solid #040204;
+  position: relative;
+  left: 130px;
+  bottom: 10px;
+}
+.cajaultima span {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  left: 20px;
+  top: 60px;
+}
