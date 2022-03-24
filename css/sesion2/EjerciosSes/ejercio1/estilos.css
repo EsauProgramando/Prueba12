@@ -1,0 +1,19 @@
+.titulo {
+  color: rgb(255, 0, 0);
+}
+
+::marker {
+  color: rgb(202, 238, 103);
+}
+.titulo_inferior {
+  color: #000000;
+}
+.subtitulo {
+  color: #0f0;
+}
+.lista-superior {
+  color: rgb(40%, 13%, 60%);
+}
+.lista-inferior {
+  color: #00f;
+}
