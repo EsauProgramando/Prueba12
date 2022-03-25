@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+}
+.flex {
+  width: 700px;
+  height: 400px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+.caja1,
+.caja2,
+.caja3 {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.div_uno {
+  max-width: 1400px;
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  min-height: 400px;
+  background-color: yellow;
+  border: 3px solid black;
+}
